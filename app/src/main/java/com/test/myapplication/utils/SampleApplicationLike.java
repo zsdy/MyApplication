@@ -44,7 +44,6 @@ public class SampleApplicationLike extends DefaultApplicationLike {
         super.onBaseContextAttached(base);
         //you must install multiDex whatever tinker is installed!
 //        MultiDex.install(base);
-
         SampleApplicationContext.application = getApplication();
         SampleApplicationContext.context = getApplication();
         TinkerManager.setTinkerApplicationLike(this);
